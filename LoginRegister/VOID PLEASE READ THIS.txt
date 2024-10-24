@@ -1,0 +1,9 @@
+Hey Void... Before you do anything with the php first off... go into connect.php and change user and pass... as necessary... after that... open up MySQL client and run these commands in this order....
+<Commands>
+> Create Database login;
+> Use login;
+> Create Table users(Id int,firstName varchar(255),lastName varchar(255),email varchar(255) NOT NULL,password varchar(255) NOT NULL);
+>show tables;                      //Check for Tables and see if table successfully created...
+
+
+That's about it... Try to sign up first before trying to login...
